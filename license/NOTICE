@@ -1,0 +1,15 @@
+This project includes components from:
+
+LLaVA (Language-and-Vision Assistant)
+Copyright (c) 2023 Haotian Liu and LLaVA contributors
+https://github.com/haotian-liu/LLaVA
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Modifications and Integration:
+- The LLaVA-1.5 model was used as a vision-language backbone in this project.
+- No major modifications were made to the original LLaVA code.
