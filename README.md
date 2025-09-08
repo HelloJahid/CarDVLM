@@ -61,7 +61,59 @@ CarDVLM delivers **state-of-the-art structured accuracy**, outperforming all bas
 
 *Figure: CarDVLM integrates [GroundingCarDD](https://hellojahid.github.io/paper/groundingcardd/groundingcardd.html) with a fine-tuned VLM (CLIP + LLaMA-2 13B + LoRA).*  
 
+<br> <br><br> <br>
 ---
 
+#  Installation Guide
 
+### 1.  Install Miniconda
+- Download and install Miniconda from the official site:  
+  👉 [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
+
+---
+
+## 2. Install LLaVA for Testing
+
+#### 2.1 Clone the Repository
+```bash
+git clone https://github.com/HelloJahid/CarDVLM
+cd CarDVLM
+```
+
+
+#### 2.3 Set Up Conda Environment
+```bash
+conda create -n llava python=3.10 -y
+conda activate llava
+```
+
+#### 2.4 Install Dependencies
+```bash
+pip install --upgrade pip                  
+pip install -e .
+pip install -e ".[train]"
+pip install flash-attn==2.2.0
+pip install peft==0.10.0
+pip install deepspeed
+```
+
+
+---
+
+### 3. Set up GroundingCarDD  
+Follow the instructions here: [GroundingCarDD Installation Guide](https://hellojahid.github.io/paper/groundingcardd/groundingcardd.html)
+
+
+---
+
+## 🙏 Acknowledgements  
+
+This project builds upon the **LLaVA-1.5 vision–language model** developed by *Haotian Liu* and contributors.  
+
+- 🌐 Original project: [LLaVA GitHub Repository](https://github.com/haotian-liu/LLaVA)  
+- 📜 Licensed under: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)  
+
+For more details, see the [LICENSE](./license/LICENSE) and [NOTICE](./license/NOTICE) files.  
+
+---
 
