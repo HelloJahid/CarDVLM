@@ -39,14 +39,26 @@ To address this gap, we introduce **CarDVLM**, a multimodal framework that integ
 
 ---
 
+##  Dataset  
+
+The **CarDVLM dataset** has been publicly released as part of this repository.  
+It is provided in **LLaVA-compatible conversational JSON format** for prompt–response training and evaluation of vision–language models in vehicle damage assessment.
+
+> The dataset is located in the [`dataset`](./datset/) directory.  
+
+Detailed documentation, annotation schema, licensing information, and usage instructions are provided in the dataset-specific Dataset_README.md within that folder.
+
+
+---
+
 ##  Results  
 
 ### Structured Evaluation (Pair-Matching)  
 | Model      | Accuracy | Precision | Recall | F1 Score |
 |------------|----------|-----------|--------|----------|
-| ChatGPT    | 59.5     | 59.6      | 65.5   | 61.5     |
-| LLaMA      | 70.6     | 77.6      | 75.5   | 75.3     |
-| Qwen       | 74.9     | 87.4      | 80.5   | 82.3     |
+| ChatGPT    | 59.5     | 59.6      | 65.5   | 62.3     |
+| LLaMA      | 70.6     | 77.6      | 75.5   | 76.5     |
+| Qwen       | 74.9     | 87.4      | 80.5   | 83.8     |
 | **CarDVLM** | **86.7** | **88.8**  | **90.2** | **89.5** |
 
 CarDVLM delivers **state-of-the-art structured accuracy**, outperforming all baselines.  
