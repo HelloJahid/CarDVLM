@@ -39,7 +39,7 @@ To address this gap, we introduce **CarDVLM**, a multimodal framework that integ
 
 ---
 
-##  Dataset  
+##  Dataset(Coming soon)  
 
 The **CarDVLM dataset** has been publicly released as part of this repository.  
 It is provided in **LLaVA-compatible conversational JSON format** for prompt–response training and evaluation of vision–language models in vehicle damage assessment.
