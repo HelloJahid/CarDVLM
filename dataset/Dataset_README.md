@@ -91,7 +91,7 @@ This supports structured reasoning over damage–part relationships rather than 
 ### Redistribution policy
 
 - Original images are not redistributed  
-- This repository releases text-only PTR annotations  
+- This repository releases text-only annotations  
 - No private or proprietary data are included  
 - Users must download CarDD images from the official source to reconstruct training data  
 
