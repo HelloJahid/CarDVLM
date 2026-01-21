@@ -2,7 +2,7 @@
 
 Accurate vehicle damage assessment is critical for **automotive eCommerce platforms**, where buyers depend on transparent visual evidence to make informed purchasing decisions. Traditional object detectors (e.g., YOLO, Mask R-CNN) can localise damage but fail to provide contextual explanations such as **type, location, and severity**.  
 
-To address this gap, we introduce **CarDVLM**, a multimodal framework that integrates **GroundingCarDD** with a fine-tuned **vision–language model (LLaVA)**. The system detects and localises damages, then generates **structured, query-driven textual descriptions**, enabling interpretable and user-centric assessments.  
+To address this gap, we introduce **CarDVLM**, a multimodal framework that integrates **GroundingCarDD** with a fine-tuned **vision language model (LLaVA)**. The system detects and localises damages, then generates **structured, query-driven textual descriptions**, enabling interpretable and user-centric assessments.  
 
 ---
 
@@ -35,14 +35,13 @@ To address this gap, we introduce **CarDVLM**, a multimodal framework that integ
   - Clearly visible damages  
   - Spatially ambiguous damages (left/right or front/rear orientation)  
   - Extremely subtle or partially obscured damages  
-  This validates CarDVLM’s robustness and practical deployment readiness.  
+  
 
 ---
 
-##  Dataset(Coming soon)  
+##  Dataset 
 
-The **CarDVLM dataset** has been publicly released as part of this repository.  
-It is provided in **LLaVA-compatible conversational JSON format** for prompt–response training and evaluation of vision–language models in vehicle damage assessment.
+The **CarDVLM dataset** has been publicly released as part of this repository. It is provided in **LLaVA-compatible conversational JSON format** for prompt–response training and evaluation of vision language models in vehicle damage assessment.
 
 > The dataset is located in the [`dataset`](./dataset/) directory.  
 
@@ -120,7 +119,7 @@ Follow the instructions here: [GroundingCarDD Installation Guide](https://helloj
 
 ## 🙏 Acknowledgements  
 
-This project builds upon the **LLaVA-1.5 vision–language model** developed by *Haotian Liu* and contributors.  
+This project builds upon the **LLaVA-1.5 vision language model** developed by *Haotian Liu* and contributors.  
 
 - 🌐 Original project: [LLaVA GitHub Repository](https://github.com/haotian-liu/LLaVA)  
 - 📜 Licensed under: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)  
