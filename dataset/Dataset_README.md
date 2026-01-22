@@ -1,6 +1,6 @@
 
 
-The **CarDVLM dataset** is a multimodal prompt–response training dataset designed for vision–language modelling of vehicle damage assessment. The dataset is released in **LLaVA-compatible conversational JSON format**, enabling direct use for instruction tuning and evaluation of large vision–language models.
+The **CarDVLM dataset** is a multimodal prompt–response training dataset designed for vision language modelling of vehicle damage assessment. The dataset is released in **LLaVA compatible conversational JSON format**, enabling direct use for instruction tuning and evaluation of large vision language models.
 
 The dataset is **derived entirely from publicly available data**, with all released annotations constructed from the CarDD dataset. To comply with licensing constraints, **original images are not redistributed**. Only **textual supervision and annotation metadata** are publicly released.
 
@@ -16,7 +16,7 @@ The CarDVLM dataset provides:
 - Explicit encoding of damage type, spatial location, and body part semantics  
 - Multi-turn, query-driven conversational supervision aligned with visual grounding  
 - Coverage of 25 vehicle body parts with fine-grained damage localisation  
-- Direct compatibility with LLaVA-style training pipelines  
+- Direct compatibility with LLaVA style training pipelines  
 
 ---
 
@@ -93,7 +93,7 @@ This supports structured reasoning over damage–part relationships rather than 
 - Original images are not redistributed  
 - This repository releases text-only annotations  
 - No private or proprietary data are included  
-- Users must download CarDD images from the official source to reconstruct training data  
+- Users must download CarDD images from the official source to reconstruct full training data  
 
 ---
 
@@ -101,7 +101,7 @@ This supports structured reasoning over damage–part relationships rather than 
 
 The LLAVA-CarDVLM dataset is intended for:
 
-- Instruction tuning of vision–language models  
+- Instruction tuning of vision language models  
 - Multimodal grounding and damage localisation research  
 - Evaluation of structured automotive damage descriptions  
 
